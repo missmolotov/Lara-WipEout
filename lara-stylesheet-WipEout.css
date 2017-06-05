@@ -795,12 +795,6 @@ a.flairselectbtn:hover{
     background: url(%%thumbnail-default%%); 
 }
 
-.over18 .thumbnail img {
-    display: none;
-}
-.over18 .thumbnail {
-    background: url(%%thumbnail-NSFW%%);
-} 
 
 
 /* Link Flairs */
