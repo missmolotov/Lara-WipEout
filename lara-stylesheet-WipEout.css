@@ -1,14 +1,13 @@
 /*
 				Version 2.0
 				Stylesheet by miss_molotov
-        Created November 2016, first used on r/PS4Pro.
-				Last modified: 05 June 2017 for r/WipEoutOmega.
+                Created November 2016, first used on r/PS4Pro.
+				Last modified: 05 June 2017
 				Details: This is a custom template called 'Lara' made by u/miss_molotov
-				You may re-use, but this header must remain intact.
 				-------------------------------------------------------------------------- */
 
-body{
-    background-image: url(%%track-2%%);
+body {
+    /*background-image: url(%%track-5%%);*/
 }
 
 p, table, li {
@@ -263,7 +262,7 @@ a.title:active {
     border: 0px solid gray;
     font-size: larger;
     list-style: none;
-    background-color: #0c0c0c;
+    background-color: #ffffff;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 }
@@ -273,7 +272,7 @@ a.title:active {
 }
 
 .icon-menu a {
-    background: #0c0c0c none no-repeat scroll center left;
+    background: transparent none no-repeat scroll center left;
 }
 
 
@@ -753,7 +752,7 @@ a.flairselectbtn:hover{
 
 /* Arrows on Recent Content */
 
-
+/*
 .sidecontentbox .arrow.up { 
     background: url(%%triangle-grey%%) 0 0;
     background-repeat: no !important;
@@ -780,7 +779,7 @@ a.flairselectbtn:hover{
     background-repeat: no !important;
     width: 14px;
     height: 14px;
-} 
+} 8?
 
 .link .score.likes {
     color: #dc5c5f;
@@ -801,47 +800,6 @@ a.flairselectbtn:hover{
 }
 .over18 .thumbnail {
     background: url(%%thumbnail-NSFW%%);
-}
-
-.thumbnail[href*="psvr"] {
-    background-image: url(%%thumbnail-PSVR%%);
-    background-position: 0px 0px;
-    min-width: 70px;
-    min-height: 50px;
-
-}  
- 
-
-.thumbnail[href*="deal"] {
-    background-image: url(%%thumbnail-deal%%);
-    background-position: 0px 0px;
-    min-width: 70px;
-    min-height: 50px;
-
-} 
-
-.thumbnail[href*="discount"] {
-    background-image: url(%%thumbnail-deal%%);
-    background-position: 0px 0px;
-    min-width: 70px;
-    min-height: 50px;
-
-} 
-
-.thumbnail[href*="code"] {
-    background-image: url(%%thumbnail-deal%%);
-    background-position: 0px 0px;
-    min-width: 70px;
-    min-height: 50px;
-
-} 
-
-.thumbnail[href*="tv"] {
-    background-image: url(%%thumbnail-tv%%);
-    background-position: 0px 0px;
-    min-width: 70px;
-    min-height: 50px;
-
 } 
 
 
@@ -1164,7 +1122,7 @@ html:lang(ra) .link:not(.linkflair-rant) {
 }
 
 .footer-parent {
-    background: url(%%box-art%%)  center scroll !important;
+    /*background: url(%%box-art%%)  center scroll !important;*/
     /*margin: 0 auto;
     padding: 288px 0 0 0;*/
     padding-bottom: 26%;
@@ -1304,258 +1262,6 @@ html:lang(ra) .link:not(.linkflair-rant) {
     font-size: 14px;
 }
 
-/* Flairs */
-
-.flair {
-    background: url(%%spritesheet%%) no-repeat -9999px;
-    border: 0;
-    vertical-align: middle;
-    /*;*/
-    min-width: 57px;
-   /*padding-left: 85px
-    text-indent: 85px;*/
-}
-
-.flair-Buttons {
-    min-width: 50px;
-    text-indent: 53px;
-    height: 11px;
-    line-height: 11px;
-    background-position: 0 0;
-}
-
-.flair-DS4-Anniversary {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 11px;
-    background-position: 0 -11px;
-}
-
-.flair-DS4-Black {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -30px;
-}
-
-.flair-DS4-Blue {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -49px;
-}
-
-.flair-DS4-Camo {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 10px;
-    background-position: 0 -68px;
-}
-
-.flair-DS4-Clear {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    background-position: 0 -87px;
-}
-
-.flair-DS4-Gold {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -106px;
-}
-
-.flair-DS4-Grey-Blue {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -125px;
-}
-
-.flair-DS4-Red {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -144px;
-}
-
-.flair-DS4-Silver {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 10px;
-    background-position: 0 -163px;
-}
-
-.flair-DS4-Starwars {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -182px;
-}
-
-.flair-DS4-SteelBlack {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -201px;
-}
-
-.flair-DS4-White {
-    min-width: 30px;
-    text-indent: 33px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -220px;
-}
-
-.flair-Japanese {
-    min-width: 88px;
-    text-indent: 91px;
-    height: 11px;
-    line-height: 19px;
-    background-position: 0 -239px;
-}
-
-.flair-PSN {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 24px;
-    line-height: 19px;
-    background-position: 0 -250px;
-}
-
-.flair-PlayStation-Grey {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -274px;
-}
-
-.flair-PlayStation-Orginal {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 19px;
-    line-height: 19px;
-    background-position: 0 -293px;
-}
-
-.flair-PlayStation-Plus {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 24px;
-    line-height: 24px;
-    background-position: 0 -312px;
-}
-
-.flair-PlayStation-VR-Headset {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 15px;
-    line-height: 15px;
-    background-position: 0 -336px;
-}
-
-.flair-PlayStation-VR-Icon {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 18px;
-    line-height: 18px;
-    background-position: 0 -351px;
-}
-
-.flair-Playstation-Logo-Black {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -369px;
-}
-
-.flair-Playstation-Logo-Blue {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -389px;
-}
-
-.flair-Playstation-Logo-Green {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -409px;
-}
-
-.flair-Playstation-Logo-Orange {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -429px;
-}
-
-.flair-Playstation-Logo-Pink {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    background-position: 0 -449px;
-}
-
-.flair-Playstation-Logo-Purple {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -469px;
-}
-
-.flair-Playstation-Logo-Teal {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -489px;
-}
-
-.flair-Playstation-Logo-Vector {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -509px;
-}
-
-.flair-Playstation-Logo-Yellow {
-    min-width: 25px;
-    text-indent: 28px;
-    height: 20px;
-    line-height: 20px;
-    background-position: 0 -529px;
-}
-
-.flair-Sony-Interactive-Entertainm {
-    min-width: 30px;
-    text-indent: 28px;
-    height: 30px;
-    line-height: 20px;
-    background-position: 0 -549px;
-}
-
 #header-img {
     display: none;
 }
-
-
