@@ -2,12 +2,13 @@
 				Version 2.0
 				Stylesheet by miss_molotov
                 Created November 2016, first used on r/PS4Pro.
-				Last modified: 05 June 2017
+				Last modified: 06 June 2017
 				Details: This is a custom template called 'Lara' made by u/miss_molotov
 				-------------------------------------------------------------------------- */
 
 body {
-    /*background-image: url(%%track-5%%);*/
+    background-image: url(%%track-6%%);
+    background-size: cover;
 }
 
 p, table, li {
@@ -20,7 +21,7 @@ th {
 }
 
 .md h1, .md h2, .md h3, .md h4, .md h5, .md h6 {
-    color: #1668c3;
+    color: #000000;
 }
 
 .md p {
@@ -35,23 +36,13 @@ a:hover { color: #fe1616; }
 
 a:active { color: #fe1616; }
 
-a.title {
-    color: #f11515;
-}
+a.title { color: #f11515  !important; }
 
+a.title:visited { color: #d41414 !important; }
 
-a.title:visited {
-    color: #d41414 !important;
-}
+a.title:hover { color: #fe1616  !important; }
 
-a.title:hover {
-    color: #fe1616;
-}
-
-
-a.title:active {
-   color: #fe1616;
-}
+a.title:active { color: #fe1616  !important; }
 
 
 
@@ -71,14 +62,14 @@ a.title:active {
 /* removes Reddit logo */
 
 #header-img.default-header {
-    background: url(%%Medal-Logo%%);
+    background: url(%%Single-Race-Logo%%);
     display: inline-block;
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
     background-position: 0 0px;
-    width: 126px;
-    height: 100px;
+    width: 154px;
+    height: 117px;
     margin-top: 5px;
     margin-right: 19px;
     margin-left: 12px;
@@ -217,6 +208,7 @@ a.title:active {
     top: -45px;
     right: 10px;
     padding: 5px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 }
 
 /* Sidebar Contents Formatting */
@@ -229,6 +221,14 @@ a.title:active {
     margin-left: -25px;
     color: #7C7C7C;
 }
+
+ .md a { color: #f11515; }
+
+ .md a:visited { color: #d41414; }
+
+ .md a:hover { color: #fe1616; }
+
+ .md a:active { color: #fe1616; }
 
 .side .md a { color: #f11515; }
 
@@ -268,16 +268,16 @@ a.title:active {
 }
 
 .sidecontentbox .title h1 {
-    color: #1668c3;
+    color: #F11515;
 }
 
 .icon-menu a {
-    background: transparent none no-repeat scroll center left;
+    background: #ffffff none no-repeat scroll center left;
 }
 
 
 .side .md h2 {
-    color: #999998;
+    color: #ffffff;
     padding: 2px 0px 0px 5px;
     height: 38px;
     font-size: 14px;
@@ -340,6 +340,11 @@ a.title:active {
 .side .md a:hover[href="https://ps4.reddit.com"], 
 .side .md a:hover[href="https://psvr.reddit.com"], 
 .side .md a:hover[href="https://vita.reddit.com"], 
+.side .md a:hover[href="https://psx.reddit.com"], 
+.side .md a:hover[href="https://ps2.reddit.com"], 
+.side .md a:hover[href="https://ps3.reddit.com"], 
+.side .md a:hover[href="https://VitaTV.reddit.com"],
+.side .md a:hover[href="https://psw.reddit.com"], 
 .side .md a:hover[href="https://playstationplus.reddit.com"] {
     width: 30px;
     text-align: left;
@@ -491,7 +496,7 @@ h box */
     font-family: "Arial Bold",Arial,Helvetica,sans-serif;
     text-transform: uppercase;
     background: url(%%square-green%%) no-repeat;
-    font-size: 11px;
+    font-size: 12px;
     position: relative;
     color: #7C7C7C;
     background-position-y: 2px;
@@ -535,11 +540,11 @@ h box */
     z-index: 150;
     color: #ffffff;
     position: relative;
-    width: 289px;
+    width: 294px;
     display: block;
     left: -5px;
     background: url(%%menu-end-red%%) no-repeat #f11515;
-    background-position-x: 270px;
+    background-position-x: 274px;
     text-transform: uppercase;
     font-weight: bold;
     font-family: "Arial Bold",Arial,Helvetica,sans-serif;
@@ -779,8 +784,8 @@ a.flairselectbtn:hover{
     background-repeat: no !important;
     width: 14px;
     height: 14px;
-} 8?
-
+} 
+*/
 .link .score.likes {
     color: #dc5c5f;
 }
@@ -795,6 +800,12 @@ a.flairselectbtn:hover{
     background: url(%%thumbnail-default%%); 
 }
 
+/*.over18 .thumbnail img {
+    display: none;
+}
+.over18 .thumbnail {
+    background: url(%%thumbnail-NSFW%%);
+}*/
 
 
 /* Link Flairs */
@@ -1114,17 +1125,14 @@ html:lang(ra) .link:not(.linkflair-rant) {
 .rounded {
     border-radius: 6px;
 }
-
+/*
 .footer-parent {
-    /*background: url(%%box-art%%)  center scroll !important;*/
-    /*margin: 0 auto;
-    padding: 288px 0 0 0;*/
+    background: url(%%box-art%%)  center scroll !important;
     padding-bottom: 26%;
     height: 26%;
     background-position: bottom left;
     background-repeat: no-repeat;
-   /* background-size: auto 80%;*/
-}
+}*/
 
 .bottommenu {
     color: #98aaa9;
@@ -1241,7 +1249,7 @@ html:lang(ra) .link:not(.linkflair-rant) {
 }
 
 .link .usertext-body .md {
-    background-color: #999998;
+    background-color: #fcfcfc;
     border: 0px;
     border-radius: 2px;
 }
@@ -1256,6 +1264,321 @@ html:lang(ra) .link:not(.linkflair-rant) {
     font-size: 14px;
 }
 
+/* Flairs */
+
+/*.flair {
+    background: url(%%spritesheet%%) no-repeat -9999px;
+    border: 0;
+    vertical-align: middle;
+    min-width: 57px;
+} */
+
+.flair-Buttons {
+    min-width: 50px;
+    text-indent: 53px;
+    height: 11px;
+    line-height: 11px;
+    background-position: 0 0;
+}
+
+.flair-DS4-Anniversary {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 11px;
+    background-position: 0 -11px;
+}
+
+.flair-DS4-Black {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -30px;
+}
+
+.flair-DS4-Blue {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -49px;
+}
+
+.flair-DS4-Camo {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 10px;
+    background-position: 0 -68px;
+}
+
+.flair-DS4-Clear {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    background-position: 0 -87px;
+}
+
+.flair-DS4-Gold {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -106px;
+}
+
+.flair-DS4-Grey-Blue {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -125px;
+}
+
+.flair-DS4-Red {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -144px;
+}
+
+.flair-DS4-Silver {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 10px;
+    background-position: 0 -163px;
+}
+
+.flair-DS4-Starwars {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -182px;
+}
+
+.flair-DS4-SteelBlack {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -201px;
+}
+
+.flair-DS4-White {
+    min-width: 30px;
+    text-indent: 33px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -220px;
+}
+
+.flair-Japanese {
+    min-width: 88px;
+    text-indent: 91px;
+    height: 11px;
+    line-height: 19px;
+    background-position: 0 -239px;
+}
+
+.flair-PSN {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 24px;
+    line-height: 19px;
+    background-position: 0 -250px;
+}
+
+.flair-PlayStation-Grey {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -274px;
+}
+
+.flair-PlayStation-Orginal {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 19px;
+    line-height: 19px;
+    background-position: 0 -293px;
+}
+
+.flair-PlayStation-Plus {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 24px;
+    line-height: 24px;
+    background-position: 0 -312px;
+}
+
+.flair-PlayStation-VR-Headset {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 15px;
+    line-height: 15px;
+    background-position: 0 -336px;
+}
+
+.flair-PlayStation-VR-Icon {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 18px;
+    line-height: 18px;
+    background-position: 0 -351px;
+}
+
+.flair-Playstation-Logo-Black {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -369px;
+}
+
+.flair-Playstation-Logo-Blue {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -389px;
+}
+
+.flair-Playstation-Logo-Green {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -409px;
+}
+
+.flair-Playstation-Logo-Orange {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -429px;
+}
+
+.flair-Playstation-Logo-Pink {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    background-position: 0 -449px;
+}
+
+.flair-Playstation-Logo-Purple {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -469px;
+}
+
+.flair-Playstation-Logo-Teal {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -489px;
+}
+
+.flair-Playstation-Logo-Vector {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -509px;
+}
+
+.flair-Playstation-Logo-Yellow {
+    min-width: 25px;
+    text-indent: 28px;
+    height: 20px;
+    line-height: 20px;
+    background-position: 0 -529px;
+}
+
+.flair-Sony-Interactive-Entertainm {
+    min-width: 30px;
+    text-indent: 28px;
+    height: 30px;
+    line-height: 20px;
+    background-position: 0 -549px;
+}
+
 #header-img {
     display: none;
 }
+
+/*  WipEout Flairs */
+
+span.flair:before {
+    background: url(%%wipeout-spirtesheet%%);
+    background-position: 0 0;
+    content: ' ';
+    display: inline-block;
+    height: 16px;
+    margin-left: 2px;
+    margin-right: 6px;
+    vertical-align: middle;
+    width: 16px;
+}
+span.flair-feisar:before { background-position: 0 0; }
+span.flair-agsys:before { background-position: -16px 0; color: red;}
+span.flair-piranha:before { background-position: -32px 0; }
+span.flair-goteki:before { background-position: -48px 0; }
+span.flair-auricom:before { background-position: -64px 0; }
+span.flair-qirex:before { background-position: -80px 0; }
+span.flair-icaras:before { background-position: -96px 0; }
+span.flair-harimau:before { background-position: -112px 0; }
+span.flair-mirage:before { background-position: -128px 0; }
+span.flair-egx:before { background-position: -144px 0; }
+span.flair-triakis:before { background-position: -160px 0; }
+span.flair-gtech:before { background-position: -176px 0; }
+span.flair-tigron:before { background-position: -192px 0; }
+span.flair-egr:before { background-position: -208px 0; }
+span.flair-vanuber:before { background-position: -224px 0; }
+span.flair-xios:before { background-position: -240px 0; }
+span.flair-assegai:before { background-position: -256px 0; }
+span.flair-assegai:before { background-position: -256px 0; }
+
+span.flair-agrc:before { background-position: -272px 0; }
+span.flair-f3600:before { background-position: -288px 0; }
+span.flair-f5000:before { background-position: -304px 0; }
+span.flair-f7200:before { background-position: -320px 0; }
+span.flair-f9000:before { background-position: -336px 0; }
+span.flair-fx300:before { background-position: -352px 0; }
+span.flair-fx350:before { background-position: -368px 0; }
+span.flair-fx400:before { background-position: -384px 0; }
+
+span.flair.flair-feisar {color: #1a81a2;}
+span.flair.flair-agsys {color: #2cb0cf;}
+span.flair.flair-piranha {color: #cc0000;}
+span.flair.flair-goteki {color: #ffc00c;}
+span.flair.flair-auricom {color: #24336a;}
+span.flair.flair-qirex {color: #6d2770;}
+span.flair.flair-icaras {color: #a61c55;}
+span.flair.flair-harimau {color: #f4dc0f;}
+span.flair.flair-mirage {color: #00a300;}
+span.flair.flair-egx {color: #701111;}
+span.flair.flair-triakis {color: #3a4e36;}
+span.flair.flair-gtech {color: #8c2f71;}
+span.flair.flair-tigron {color: #a12e2e;}
+span.flair.flair-egr {color: #922820;}
+span.flair.flair-vanuber {color: #ff3f07;}
+span.flair.flair-xios {color: #ffcc33;}
+span.flair.flair-assegai {color: #3b7ec0;}
+
+span.flair.flair-agrc {color: #090c41;}
+span.flair.flair-f3600 {color: #ed2e38;}
+span.flair.flair-f5000 {color: #e66a19;}
+span.flair.flair-f7200 {color: #e0c3a0;}
+span.flair.flair-f9000 {color: #a0badf;}
+span.flair.flair-fx300 {color: #83d8d4;}
+span.flair.flair-fx350 {color: #7fb4c0;}
+span.flair.flair-fx400 {color: #00b7ff;}
